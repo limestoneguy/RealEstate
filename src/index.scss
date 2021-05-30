@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Nunito;
+  src: url("./assets/fonts/Nunito-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Nunito-bold";
+  src: url("./assets/fonts/Nunito-Bold.ttf");
+}
+
+body {
+  font-family: Nunito;
+  background-color: #f8f9fd;
+}
+
+.text-dark {
+  color: #02243f;
+}
